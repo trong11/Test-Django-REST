@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca753792-91c2-46a9-97eb-1917f5a4a21a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trongpro/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trongpro/watchlist_app/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trongpro/watchlist_app/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

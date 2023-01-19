@@ -29,12 +29,14 @@ def movie_details(request, pk):
 
     if request.method == 'PUT':
         movie = Movie.objects.get(pk=pk)
-        serializer = MovieSerializer(data=request.data)
+        serializer = MovieSerializer(movie, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
         else:
             return Response(serializer.errors)
 
-
-    # if request.method == 'DELETE':
+    if request.method == 'DELETE':
+        movie = Movie.objects.get(pk=pk)
+        movie.delete()
+        return Response()
