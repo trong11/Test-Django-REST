@@ -9,12 +9,34 @@ from rest_framework.views import APIView
 from rest_framework import generics
 from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+from rest_framework.throttling import UserRateThrottle, AnonRateThrottle, ScopedRateThrottle
+from django_filters.rest_framework import DjangoFilterBackend
 
 from watchlist_app.api.permissions import AdminOrReadOnly, ReviewUserOrReadOnly
+from watchlist_app.api.throttling import ReviewCreateThrottler, ReviewListThrottler
+from rest_framework import filters
+
+
+class UserReview(generics.ListAPIView):
+    # queryset = Review.objects.all()
+    serializer_class = ReviewSerializer
+
+    # throttle_classes = [ReviewListThrottler, AnonRateThrottle]
+
+    # def get_queryset(self):
+    #     username = self.kwargs['username']
+    #     return Review.objects.filter(review_user__username=username)
+
+    def get_queryset(self):
+        username = self.request.query_params.get('username', None)
+        return Review.objects.filter(review_user__username=username)
 
 
 class ReviewCreate(generics.CreateAPIView):
     serializer_class = ReviewSerializer
+    permission_classes = [IsAuthenticated]
+
+    # throttle_classes = [ReviewCreateThrottler]
 
     def get_queryset(self):
         return Review.objects.all()
@@ -43,7 +65,10 @@ class ReviewCreate(generics.CreateAPIView):
 class ReviewList(generics.ListAPIView):
     # queryset = Review.objects.all()
     serializer_class = ReviewSerializer
-    permission_classes = [IsAuthenticated]
+
+    # throttle_classes = [ReviewListThrottler, AnonRateThrottle]
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['review_user__username', 'active']
 
     def get_queryset(self):
         pk = self.kwargs['pk']
@@ -54,6 +79,8 @@ class ReviewDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Review.objects.all()
     serializer_class = ReviewSerializer
     permission_classes = [ReviewUserOrReadOnly]
+    # throttle_classes = [ScopedRateThrottle]
+    # throttle_scope = 'review-detail'
 
 
 # class ReviewDetail(mixins.RetrieveModelMixin, generics.GenericAPIView):
@@ -99,9 +126,12 @@ class ReviewDetail(generics.RetrieveUpdateDestroyAPIView):
 class StreamPlatformVS(viewsets.ModelViewSet):
     queryset = StreamPlatform.objects.all()
     serializer_class = StreamPlatformSerializer
+    permission_classes = [AdminOrReadOnly]
 
 
 class StreamPlatformAV(APIView):
+    permission_classes = [AdminOrReadOnly]
+
     def get(self, request):
         platform = StreamPlatform.objects.all()
         serializer = StreamPlatformSerializer(platform, many=True)
@@ -117,6 +147,8 @@ class StreamPlatformAV(APIView):
 
 
 class StreamPlatformDetailAV(APIView):
+    permission_classes = [AdminOrReadOnly]
+
     def get(self, request, pk):
         if request.method == 'GET':
             try:
@@ -141,7 +173,17 @@ class StreamPlatformDetailAV(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
+class WatchListGV(generics.ListAPIView):
+    queryset = WatchList.objects.all()
+    serializer_class = WatchListSerializer
+
+    filter_backends = [filters.OrderingFilter]
+    ordering_fields = ['avg_rating']
+
+
 class WatchListAV(APIView):
+    permission_classes = [AdminOrReadOnly]
+
     def get(self, request):
         movies = WatchList.objects.all()
         serializer = WatchListSerializer(movies, many=True)
@@ -157,6 +199,8 @@ class WatchListAV(APIView):
 
 
 class WatchDetailAV(APIView):
+    permission_classes = [AdminOrReadOnly]
+
     def get(self, request, pk):
         if request.method == 'GET':
             try:
