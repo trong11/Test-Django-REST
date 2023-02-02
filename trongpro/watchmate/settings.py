@@ -137,14 +137,25 @@ REST_FRAMEWORK = {
     #     'rest_framework.throttling.UserRateThrottle'
     # ],
     'DEFAULT_THROTTLE_RATES': {
-        'anon': '1/day',
+        'anon': '100/day',
         'user': '3/day',
-        'review-create': '1/day',
+        'review-create': '100/day',
         'review-list': '10/day',
-        'review-detail': '2/day',
+        'review-detail': '100/day',
     }
 }
 
 # SIMPLE_JWT = {
 #     'ROTATE_REFRESH_TOKENS': True,
+# }
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+#     'PAGE_SIZE': 1
+# }
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES': (
+#         'rest_framework.renderers.JSONRenderer',
+#     )
 # }

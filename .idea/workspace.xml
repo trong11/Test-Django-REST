@@ -5,170 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca753792-91c2-46a9-97eb-1917f5a4a21a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/throttling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-2.6.0.dist-info/AUTHORS.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-2.6.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-2.6.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-2.6.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-2.6.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-2.6.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-2.6.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filter-22.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filter-22.1.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filter-22.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filter-22.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filter-22.1.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filter-22.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filter-22.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/filterset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/be/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/da/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/el/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/es/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/it/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/zh_CN/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/locale/zh_CN/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/rest_framework/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/rest_framework/backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/rest_framework/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/rest_framework/filterset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/templates/django_filters/rest_framework/crispy_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/templates/django_filters/rest_framework/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/templates/django_filters/widgets/multiwidget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django_filters/widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/djangorestframework_simplejwt-5.2.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/djangorestframework_simplejwt-5.2.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/djangorestframework_simplejwt-5.2.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/djangorestframework_simplejwt-5.2.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/djangorestframework_simplejwt-5.2.2.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/djangorestframework_simplejwt-5.2.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/djangorestframework_simplejwt-5.2.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/algorithms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/api_jwk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/api_jws.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/api_jwt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/jwk_set_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/jwks_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/warnings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/de_CH/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/de_CH/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/es/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/es_CL/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/es_CL/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/fa_IR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/fa_IR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/id_ID/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/id_ID/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/it_IT/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/it_IT/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/ko_KR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/ko_KR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/nl_NL/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/nl_NL/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/pl_PL/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/pl_PL/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/ru_RU/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/ru_RU/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/uk_UA/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/uk_UA/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/management/commands/flushexpiredtokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0002_outstandingtoken_jti_hex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0003_auto_20171017_2007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0004_auto_20171017_2013.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0005_remove_outstandingtoken_jti.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0006_auto_20171017_2113.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0007_auto_20171017_2214.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0008_migrate_to_bigautofield.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0010_fix_migrate_to_bigautofield.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0011_linearizes_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/0012_alter_outstandingtoken_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/token_blacklist/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/rest_framework_simplejwt/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/pagination.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trongpro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trongpro/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trongpro/user_app/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/user_app/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trongpro/user_app/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/user_app/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trongpro/user_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/user_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trongpro/watchlist_app/api/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trongpro/watchlist_app/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trongpro/watchlist_app/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trongpro/user_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/user_app/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trongpro/watchlist_app/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchlist_app/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trongpro/watchlist_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchlist_app/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trongpro/watchmate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trongpro/watchmate/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +46,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/trongnp3/openstack-dbaas"
+    "last_opened_file_path": "/home/trongnp3/drf-project/trongpro"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
