@@ -89,4 +89,22 @@ class ReviewTestCase(APITestCase):
             "active": True
         }
 
-        response = self.client.post(reverse('review-create'))
+        response = self.client.post(reverse('review-create', args=(self.watchlist.id, )), data)
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertEqual(models.Review.objects.count(), 1)
+        self.assertEqual(models.Review.objects.get().rating, 5)
+
+        response = self.client.post(reverse('review-create', args=(self.watchlist.id,)), data)
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_review_create_unauth(self):
+        data = {
+            "platform": self.stream,
+            "title": "Example Movie",
+            "description": "Example Story",
+            "active": True
+        }
+
+
+
+
